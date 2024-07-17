@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>DPO Forms</title>
+  </head>
+  
+  <body>
+    <nav>
+      <img src="DPOforms_logo.svg" height="53px"> 
+      <img src="DPO_logo.svg" height="64px">
+    </nav>
+    
+
+<main>
+  <h3>Products</h3>
+  <div class="form-wrapper">
+      <ul>
+        <div class="segmentlist">
+          <li><img src="check-circle-fill.svg" class="check-segment">Details</li>
+          <li class="segment-pending"><img src="check-circle-empty.svg" class="check-segment">Sales UOM</li>
+          <li class="segment-pending"><img src="check-circle-empty.svg" class="check-segment">Generate SKU</li>
+          <li class="segment-pending"><img src="check-circle-empty.svg" class="check-segment">Supplier/Warehouse</li>
+          <li class="segment-pending"><img src="check-circle-empty.svg" class="check-segment">Product Image</li>
+        </div>
+      </ul>
+
+    <form>
+      <div class="input">
+        <label for="productname">Product Full Name</label><br>
+        <input type="text" id="productname" class="textfield" placeholder="Text"><br>
+      </div>
+      <div class="input">
+        <label for="groupcode">Group Code</label><br>
+        <input type="text" id="groupcode" class="textfield" placeholder="Text"><br>
+      </div>
+      <div class="input">
+        <label for="suppliergroupname">Supplier Group Name</label><br>
+        <input type="text" id="suppliergroupname" class="textfield" placeholder="Text"><br>
+      </div>
+      <div class="input">
+        <label for="supplierpayables">Supplier Payables Group</label><br>
+        <input type="text" id="supplierpayables" class="textfield" placeholder="Text"><br>
+      </div>
+      <div class="input">
+        <label for="legalentity">Legal Entity Name</label><br>
+          <select id="legalentity" name="legalentity">
+            <option value="" disabled selected>Select an option</option>
+            <option value="DMK">DMK</option>
+            <option value="DMB">DMB</option>
+            <option value="DCS">DCS</option>
+          </select>
+      </div>
+      <div class="input-checkbox">
+        <input type="checkbox" id="samplevariable">
+        <label for="samplevariable" class="checkbox-lable">Sample Variable</label><br>
+      </div>
+
+      <div class="bottombutton">
+        <button class="SecondaryButton">Back</button>
+        <button class="PrimaryButton">Next</button>
+      </div>
+    </form>
+  </div>  
+</main>
+</body>
+
+</html>
