@@ -1,0 +1,76 @@
+* {
+  font-family: "Oswald", sans-serif;
+  color: #121212;
+}
+
+body {
+  margin: 0;
+}
+
+.content-container {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+img {
+  width: 380px;
+  border: 3px solid #121212;
+}
+
+.paragraph {
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.container-button {
+  /* width: 400px;
+  display: grid;
+  gap: 16px 400px;
+  margin-top: 32px;  */
+  width: 400px;
+  display: flex;     /* Use flexbox for easy alignment and spacing */
+  flex-direction: column; /* Arrange items in a column (top to bottom) */
+  gap: 8px;         /* Add a 16px gap between the input and button */
+  margin-top: 32px;
+  margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;  
+  align-items: center;  /* Center the items horizontally within the container */
+}
+
+input {
+  display: block;
+  width: 178px;
+  border: 3px solid #121212;
+  padding: 8px;
+  color: #595959;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+button {
+  display: block;
+  background-color: #121212;
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  border: 3px solid #121212;
+  padding: 8px;
+}
+
+.termsofservice {
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
